@@ -1,0 +1,35 @@
+/*
+* Maggie Morris
+* Due Date
+* Project Name and Description
+*/
+
+/* THe universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color:crimson;
+    font-family: arial, Futura, Helvetica;
+}
+h1 {background-color: mediumvioletred; /* color for background*/
+color:deeppink;
+}
+
+p { /* type selector for ALL paragraphs */
+    color:lightpink;
+}
+
+#redText { /* use an id to change text to red */
+    color:darkred
+}
+
+.blueText { /*use a class to change the text to green in different kind of elements*/
+    color: skyblue
+}
